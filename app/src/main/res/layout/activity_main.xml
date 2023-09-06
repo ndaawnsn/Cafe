@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_column="3"
+    android:background="#FFFAF0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:src="@drawable/logo_cafe"/>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/stylebutton1"
+        android:src="@drawable/baseline_restaurant_menu_24"/>
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/stylebutton1"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:text="Menu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton2"
+            android:src="@drawable/baseline_border_color_24"/>
+
+        <Button
+            android:id="@+id/btnpesan"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton2"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="Pesan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton3"
+            android:src="@drawable/baseline_format_list_bulleted_24"/>
+
+        <Button
+            android:id="@+id/btnlist"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton3"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="List Pesanan"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton4"
+            android:src="@drawable/baseline_info_24"/>
+
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton4"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="Info Aplikasi"/>
+    </LinearLayout>
+</LinearLayout>
